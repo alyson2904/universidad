@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #78e4a8, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #6a11cb;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    margin-top: 8px;
+    padding: 10px;
+    border: 2px solid #6a11cb;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #e454ad;
+    box-shadow: 0px 0px 5px #2575fc;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+
+}
+select {
+    margin-top: 8px;
+    padding: 10px;
+    border: 2px solid #6a11cb;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+select:focus {
+    border-color: #e454ad;
+    box-shadow: 0px 0px 5px #2575fc;
+}
+.nota-importante {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fef7dc; /* Fondo amarillo suave */
+    border-left: 5px solid #f5b642; /* Línea vertical amarilla */
+    border-radius: 8px;
+    color: #333; /* Color del texto */
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.nota-importante strong {
+    color: black; /* "NOTA IMPORTANTE:" en negro */
+}
+
+
